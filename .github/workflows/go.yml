@@ -37,7 +37,7 @@ jobs:
       run: go build master.go
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: projeto-compilado
         path: master
